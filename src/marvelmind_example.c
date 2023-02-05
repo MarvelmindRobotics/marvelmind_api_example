@@ -1339,6 +1339,7 @@ void marvelmindCycle() {
                 switchToConState(connected);
                 connectRetryCounter= 0;
             } else {
+                marvelmindPrintLastError();
                 connectRetryCounter++;
                 if (connectRetryCounter>30) {
                     marvelmindReopenPort();
