@@ -1228,7 +1228,11 @@ static void tryParseMarvelmindStreamRecord(MarvelmindStreamRecord *mrec) {
 
             srd= *((StreamRawDistances *) parsed_data);
 
+            #ifdef WIN32
             ZeroMemory(&times[0], 128);
+            #else
+            memset(&times[0], 0, 128);
+            #endif 
             printRealtimeStamp(times, srd.tx_timestamp64);
 
             for(i=0;i<4;i++) {
