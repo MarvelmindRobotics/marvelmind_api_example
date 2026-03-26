@@ -3,7 +3,7 @@
 ### About  ###
 
 This software implements examples of using all functions from Marvelmind API (library dashapi.dll in Windows, libdashapi.so in Linux). 
-See chapter 10.5 of the interfaces documnet for more details: [https://marvelmind.com/pics/marvelmind_interfaces.pdf](https://marvelmind.com/pics/marvelmind_interfaces.pdf)
+See chapter "Description of C example for Marvelmind API" of the interfaces document for more details: [https://marvelmind.com/pics/marvelmind_interfaces.pdf](https://marvelmind.com/pics/marvelmind_interfaces.pdf)
 
 * Microsoft Windows
 * GNU/Linux (including Raspberry Pi)
